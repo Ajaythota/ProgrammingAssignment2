@@ -5,10 +5,6 @@
 ## and accessing the ready answer instead of doing the operations everytime. 
 ## <<- acts like a global  or static in Java analogy
 ## using git for the first time 
-
-
-M <- matrix(c(1,2,3,4),2,2)
-
 makeCacheMatrix <- function(x= numeric()) {
   i <- NULL
   
@@ -42,3 +38,10 @@ cacheSolve <- function (x,...){
   i
   
 }
+#run the commands to test 
+# M <- matrix(c(1,2,3,4),2,2)
+#I <- makeCacheMatrix(M)
+#cacheSolve(I)  ## not from cache
+#cacheSolve(I)   ## from cache
+
+
