@@ -1,8 +1,10 @@
+##akt0818
 ##This is Week 3 programming Assignment2 
 ## This function calculates the inverse of matrix using R function called Solve
 ## The purpose of this function is to access the final value of common operations like mean, sum ..etc by just calling the function
 ## and accessing the ready answer instead of doing the operations everytime. 
 ## <<- acts like a global  or static in Java analogy
+## using git for the first time 
 
 
 M <- matrix(c(1,2,3,4),2,2)
